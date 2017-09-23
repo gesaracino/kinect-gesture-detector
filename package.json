@@ -1,0 +1,18 @@
+{
+	"name": "kinect-gesture-detector",
+	"version": "0.0.1",
+	"description": "kinect-gesture-detector",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Gerardo Saracino <g.saracino@shaa.it>",
+	"license": "MIT",
+	"dependencies": {
+		"socket.io": "~1.1.0",
+		"node-gyp": "3.6.1",
+		"kinect2": "0.1.5",
+		"winston": "^2.3.1",
+		"winston-daily-rotate-file": "^1.4.6"
+	}
+}
